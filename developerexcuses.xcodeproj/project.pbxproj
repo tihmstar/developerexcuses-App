@@ -14,6 +14,7 @@
 		088C75C31A5472A100AD5AC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088C75C21A5472A100AD5AC3 /* Images.xcassets */; };
 		088C75C61A5472A200AD5AC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088C75C41A5472A200AD5AC3 /* LaunchScreen.xib */; };
 		088C75D21A5472A200AD5AC3 /* developerexcusesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C75D11A5472A200AD5AC3 /* developerexcusesTests.m */; };
+		088C75DD1A5472C900AD5AC3 /* devEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 088C75DC1A5472C900AD5AC3 /* devEx.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		088C75CB1A5472A200AD5AC3 /* developerexcusesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = developerexcusesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088C75D01A5472A200AD5AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		088C75D11A5472A200AD5AC3 /* developerexcusesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = developerexcusesTests.m; sourceTree = "<group>"; };
+		088C75DB1A5472C900AD5AC3 /* devEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = devEx.h; sourceTree = "<group>"; };
+		088C75DC1A5472C900AD5AC3 /* devEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = devEx.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				088C75B91A5472A100AD5AC3 /* AppDelegate.h */,
 				088C75BA1A5472A100AD5AC3 /* AppDelegate.m */,
+				088C75DB1A5472C900AD5AC3 /* devEx.h */,
+				088C75DC1A5472C900AD5AC3 /* devEx.m */,
 				088C75BC1A5472A100AD5AC3 /* ViewController.h */,
 				088C75BD1A5472A100AD5AC3 /* ViewController.m */,
 				088C75BF1A5472A100AD5AC3 /* Main.storyboard */,
@@ -221,6 +226,7 @@
 			files = (
 				088C75BE1A5472A100AD5AC3 /* ViewController.m in Sources */,
 				088C75BB1A5472A100AD5AC3 /* AppDelegate.m in Sources */,
+				088C75DD1A5472C900AD5AC3 /* devEx.m in Sources */,
 				088C75B81A5472A100AD5AC3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +351,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = developerexcuses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +363,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = developerexcuses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
